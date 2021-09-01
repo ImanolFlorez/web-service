@@ -1,0 +1,65 @@
+{
+    
+    "RootDir":"/home/cristian/Desktop/webservice/web-service",
+    "PathPPV":"/home/cristian/Desktop/webservice/web-service/Config/models.json",
+    "FileErrors":"/home/cristian/Desktop/webservice/web-service/Errores.log",
+    "Logs":"/home/cristian/Desktop/webservice/web-service",
+    "Debugs":"/home/cristian/Desktop/webservice/web-service",
+    "TempFile":"/home/cristian/Desktop/webservice/web-service",
+    "Models":{
+        "clasificador areas":{
+            "Supervision":{
+                "type":"Selection",
+                "labels":["1506","1000","1001","1100","1103","1200","1201","1202","1210","1211","1000","1000","1000","1000","1000","1000","1000","1000","1000","1000","1000","1000","1000","1000","1000","1000","1000","1000","1000","1000"]
+            },
+            "ModelMetadata" :{
+                "Path":"/home/cristian/Desktop/acuacar/modelo_1_1",
+                "Model":"modelo_servido_1_1.R"
+            },
+            "ModelText" : {
+                "Path" :"/home/cristian/Desktop/acuacar/modelo_1_2",
+                "Model" :"modelo_servido_1_2.R"
+            },
+            "ModelImage":{
+                "Path":"/home/jose/trained_models_acuacar/images_202104",
+                "Model":"model_1.pkl"
+            }
+        },
+        "favorabilidad pqrs" : {
+            "Supervision":{
+                "type":"Qualification",
+                "labels":["favorable"]
+            },
+            "ModelMetadata" : {},
+            "ModelImage" : {},
+            "ModelText" : {
+                "Path" :"/home/cristian/Desktop/acuacar/modelo_2_2",
+                "Model" :"modelo_servido_2_2.R"
+            } 
+        },
+        "tono sentimiento pqrs":{
+            "Supervision":{
+                "type":"Qualification",
+                "labels":["negativo"]
+            },
+            "ModelMetadata" : {},
+            "ModelImage" : {},
+            "ModelText" : {
+                "Path" :"/home/cristian/Desktop/acuacar/modelo_3_2",
+                "Model" :"modelo_servido_3_2.R"
+            } 
+        },
+        "sin tono sentimiento pqrs":{
+            "Supervision":{
+                "type":"Qualification",
+                "labels":["balance"]
+            },
+            "ModelMetadata" : {},
+            "ModelImage" : {},
+            "ModelText" : {
+                "Path" :"/home/cristian/Desktop/acuacar/tono_sentimiento",
+                "Model" :"modelo_servido_3_2_sin.R"
+            }
+        }
+    }
+}

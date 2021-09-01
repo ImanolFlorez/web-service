@@ -1,0 +1,61 @@
+{
+  "clasificador areas": {
+    "metadata_model": {
+      "confusion_matrix": "/home/cristian/Desktop/acuacar/modelo_1_1/matriz_confusion_mod_1_1.csv",
+      "evaluation_metrics": "/home/cristian/Desktop/acuacar/modelo_1_1/ficha_mod_1_1.csv"
+    },
+    "text_model": {
+      "confusion_matrix": "/home/cristian/Desktop/acuacar/modelo_1_2/matriz_confusion_mod_1_2.csv",
+      "evaluation_metrics": "/home/cristian/Desktop/acuacar/modelo_1_2/ficha_mod_1_2.csv"
+    },
+    "neural_network": {
+      "dataset_mean": [
+        0.9447174072265625, 
+        0.9446591138839722, 
+        0.9451310634613037
+      ],
+      "dataset_std": [
+        0.1112457811832428, 
+        0.10988511890172958, 
+        0.10991144925355911
+      ],
+      "labels": [
+        "1000",
+        "1001",
+        "1103",
+        "1300",
+        "1301",
+        "1506",
+        "1601",
+        "1703",
+        "otros"
+      ],
+      "confusion_matrix": "/home/jose/notebooks/acuacar/matrizconf1.csv",
+      "evaluation_metrics": "/home/jose/notebooks/acuacar/metricas.csv"
+    }
+  },
+  "favorabilidad pqrs":{
+                "metadata_model": {},
+                "text_model": {
+                  "confusion_matrix": "/home/cristian/Desktop/acuacar/modelo_2_2/matriz_confusion_mod_2_2.csv",
+                  "evaluation_metrics": "/home/cristian/Desktop/acuacar/modelo_2_2/ficha_mod_2_2.csv"
+                },
+                "neural_network": {}
+  },
+  "tono sentimiento pqrs":{
+              "metadata_model": {},
+              "text_model": {
+                "confusion_matrix": "/home/cristian/Desktop/acuacar/modelo_3_2/matriz_confusion_mod_3_2.csv",
+                "evaluation_metrics": "/home/cristian/Desktop/acuacar/modelo_3_2/ficha_mod_3_2.csv"
+              },
+              "neural_network": {}
+  },
+  "sin tono sentimiento pqrs":{
+              "metadata_model": {},
+              "text_model": {
+                "confusion_matrix": "/home/cristian/Desktop/acuacar/tono_sentimiento/matriz_confusion_mod_3_2_sin.csv",
+                "evaluation_metrics": "/home/cristian/Desktop/acuacar/tono_sentimiento/ficha_mod_3_2_sin.csv"
+              },
+              "neural_network": {}
+  }
+}
